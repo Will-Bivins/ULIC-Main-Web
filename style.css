@@ -1,0 +1,53 @@
+main{
+    background-color: #ffffff;
+}
+body{
+background-color: white;
+}
+h1{
+text-align: center;
+background-color: #ad0000;
+padding: 15px;
+font-family: "gotham", sans-serif;
+font-weight: 400;
+font-style: bold;
+}
+h2{
+    color: #000;
+    font-family: "gotham", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+p{
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+
+}
+.background{
+    background-color: #ffffff;
+    
+
+}
+.navbar{
+list-style-type:none;
+background-color: #ad0000;
+padding: none;
+margin: 0px;
+}
+
+@media only screen and (max-width: 414px) and (orientation: portrait) {
+    /* Styles for most iPhones in portrait orientation */
+  }
+  
+  @media only screen and (max-width: 736px) and (orientation: landscape) {
+    /* Styles for most iPhones in landscape orientation */
+  }
+.navbutton{
+    background-color: #ad0000;
+
+}
+.navbutton a:hover{
+    background-color: white;
+    
+
+}
