@@ -1,12 +1,30 @@
+.cardinalred {
+    /* Not including rgba since our Cardinal Red may not be tinted */
+    background-color: #AD0000;
+}
+.black {
+    background-color: rgba(0,0,0,1);
+    background-color: #000;
+}
+.white {
+        background-color: rgba(255,255,255,1);
+        background-color: #FFF;
+}
 main{
-    background-color: #ffffff;
+
 }
 body{
-background-color: white;
+margin: 1.5%;
+}
+header{
+    margin: auto;
+    text-align: center;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 h1{
 text-align: center;
-background-color: #ad0000;
 padding: 15px;
 font-family: "gotham", sans-serif;
 font-weight: 400;
@@ -30,24 +48,51 @@ font-style: normal;
 }
 .navbar{
 list-style-type:none;
-background-color: #ad0000;
-padding: none;
-margin: 0px;
+background-color: #000;
+display: flex;
+justify-content: center;
+
 }
 
-@media only screen and (max-width: 414px) and (orientation: portrait) {
-    /* Styles for most iPhones in portrait orientation */
-  }
-  
-  @media only screen and (max-width: 736px) and (orientation: landscape) {
-    /* Styles for most iPhones in landscape orientation */
-  }
+@media (max-width: 1440px){
+/* Desktop */
+
+}
+@media (max-width: 1024px){
+/* Tablets */
+
+}
+@media (max-width: 600px){
+/* Phones */
+    
+}
 .navbutton{
     background-color: #ad0000;
-
+    border-radius: 0px;
+    text-decoration: none;
+    margin: 5px;
+    padding: 15px;
 }
 .navbutton a:hover{
     background-color: white;
     
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-body{
+    background-color: #ffffff;
+}
+.content-container{
+
+}
+.container-nav{
+
+}
+.container-ebanner{
 
 }
