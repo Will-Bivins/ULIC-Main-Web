@@ -6,51 +6,113 @@
 body{
     min-height: 100vh;
     background-color: white;
-    
+    overflow-y: scroll;
+
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid blue;
-    
+h1{
+    font-size: 25px;
+    padding: 15px;
 }
 nav{
     display: flex;
-    height: min-content;
-    justify-content: left;
+    align-items: flex-start;
+    flex-direction: row;
     background-color: #ad0000;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0,0.1 );
-}
-.contact-section{
-    flex: 1;
-    background-image: url(imgs/Compass\ White\ RGB.png);
-    background-color: #8B9da1;
-}
-.navlinks{
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;
-    border: 5px solid white;
-    margin: none;
-}
-.navlinks ul{
-    width: 100%;
-    list-style: none;
-}
-li a{
-    padding: 0px 100px;
-    justify-content: center;
-}
-.introblock{
-    border: 5px solid blue;
 
+     
 }
 .logo{
-    min-width: 120px;
+    padding-top: 3px;
+    max-height: 100px;
+    margin-bottom: 1px;
 }
-@media all and ( max-width: 600px;)  {
-header{
-    width: 600px;
+.container{ 
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
 }
+.section-1{ /* Title Card Page */
+    flex: .5;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.section-1 a{ 
+    color: white;
+    padding: 100%;
+    padding-top: 100%;   
+}
+.cbutton{ /* Contact Button */
+    font-size: 20px;
+    border: 0.5px solid #ad0000;
+    color: #ad0000;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 550;
+    background-color: white;
+
+}
+.cbutton:hover{
+    background-color: #ad0000;
+    color: white;
+    cursor: pointer;
+    box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.4 );
+
+}
+
+.section-2{
+    flex: 2;
+    background-image: url(imgs/Compass\ White\ RGB.png);
+    background-color: black;
+    padding-top: 5%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6 );
+    display: flex;
+    flex-direction: column;
+}
+.content-1{
+    background-color: white;
+    flex: .5;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 30px;
+    margin-top: 15px;
+
+}
+.content-2{
+    background-color: white;
+    flex: 2;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+@media (max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+}
+@media(max-width: 400px;){
+
+}
+.footer{
+
+}
+.contactbox{
+background-color: #ad0000;
+margin-bottom: 5PX;
+border-radius: 10px;
+
+}
+.welcome{
+    position: absolute;
+    background-color: bisque;
+    padding: 15px;
+    margin-left: 50%;
+    margin-right: auto;
 }
