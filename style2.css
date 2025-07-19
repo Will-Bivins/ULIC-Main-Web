@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: white;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    
+}
+nav{
+    display: flex;
+    height: min-content;
+    justify-content: left;
+    background-color: #ad0000;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0,0.1 );
+}
+.contact-section{
+    flex: 1;
+    background-image: url(imgs/Compass\ White\ RGB.png);
+    background-color: #8B9da1;
+}
+.navlinks{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid white;
+    margin: none;
+}
+.navlinks ul{
+    width: 100%;
+    list-style: none;
+}
+li a{
+    padding: 0px 100px;
+    justify-content: center;
+}
+.introblock{
+    border: 5px solid blue;
+
+}
+.logo{
+    min-width: 120px;
+}
+@media all and ( max-width: 600px;)  {
+header{
+    width: 600px;
+}
+}
