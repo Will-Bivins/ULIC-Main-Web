@@ -12,17 +12,28 @@
       
         
         <nav>
-            <div class="logo"><a href="#"><img src="imgs/nav-logo.png" alt="University of Louisville Investment Club Logo" width="40%" height="auto"></a></div>
-            <div style="margin-right: 20px;"><a href="#"><img src="imgs/menu-bttn.png" alt="menu button" width="100%" height="auto"></a></div>
+            <div class="logo"><a href="index.html"><img src="imgs/nav-logo.png" alt="University of Louisville Investment Club Logo" width="40%" height="auto"></a></div>
+            <div class="menu-bttn" style="margin-right: 20px;"><a onclick=showsidebar()><img src="imgs/menu-bttn.png" alt="menu button" width="100%" height="auto"></a></div>
             <div class="sidebar">
-                <img src="imgs/I C.png" alt="IC Logo" style="width: auto; height: 250px; background-color: white;">
+            <div class="close-bttn"><a onclick=hidesidebar()><img src="imgs/close-bttn.png" alt="Close button"></a></div>
+               <img src="imgs/I C.png" alt="IC Logo" style="width: 200px; height: auto; background-color: white;">
                 <ul>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">About</a></li>                    
+                    <li><a href="#">Club Structure</a></li>
+                    <li><a href="#">Market Analysis Page</a></li>                    
                 </ul>
             </div>
         </nav>
+        <script>
+            function showsidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hidesidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
     <body>
         
         <div class="container">
@@ -33,26 +44,17 @@
                 <div class="contactbox, hideOnMobile"><h1 style="color: white; padding-top: 20px;">Contact the Club Here:</h1></div>
                <a href="mailto:contact@cardinalinvest.club" class="cbutton">Contact</a>
             </section>
-            <section class="section-2" style="border-top-right-radius: 8px; border-top-left-radius: 8px">
+            <section class="section-2">
                 <section class="content-1">
                     <h1>Welcome to The University of Louisville Investment Club</h1>
                 </section>
                 <section class="content-1" style="margin-top: 15px;">
 
                 </section>
-
-            </section>
-            <section class="section-2">
-                <section class="content-1">
-                    <h1>Interest Form</h1>
-                </section>
-
-
-            </section>
         
         </div>
     <footer>
-    asdasda    
+
     </footer>
     
     </body>
