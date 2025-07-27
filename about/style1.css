@@ -173,7 +173,15 @@ h1{
     background-position: center;
     height: 685px;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
     
+
+}
+.learn-graphic{
+    justify-content: center;
 
 }
 .contactbox{
