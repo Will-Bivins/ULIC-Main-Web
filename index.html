@@ -8,12 +8,13 @@
         <link rel="stylesheet" href="https://use.typekit.net/lfa1bpi.css">
         <title>University of Louisville Investments</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="refresh" content="0; url=http://www.cardinalinves.club" />
       </head>
       
         
         <nav>
             
-            <div class="logo"><a href="home"><img src="imgs/nav-logo.png" alt="University of Louisville Investment Club Logo" width="40%" height="auto"></a></div>
+            <div class="logo"><a onclick="homedirect()"><img src="imgs/nav-logo.png" alt="University of Louisville Investment Club Logo" width="40%" height="auto"></a></div>
             <div class="menu-bttn" style="margin-right: 20px;"><a onclick=showsidebar()><img src="imgs/menu-bttn.png" alt="menu button" width="100%" height="auto"></a></div>
             
         <div class="sidebar">
@@ -22,7 +23,7 @@
                 <img src="imgs/I C.png" alt="IC Logo" style="width: 200px; height: auto; background-color: white;">
                 
                <ul>
-                    <li><a href= "about">About</a></li>
+                    <li><a href= "about.html">About</a></li>
                     <li><a href="club-structure">Club Structure</a></li>
                     <li><a href="#">Market Analysis Page</a></li> 
                     <li><a href="mailto:contact@cardinalinvest.club">Contact</a></li>                   
@@ -39,6 +40,9 @@
             function hidesidebar(){
                 const sidebar = document.querySelector('.sidebar')
                 sidebar.style.display = 'none'
+            }
+            function homedirect(){
+                 location.replace("https://www.cardinalinvest.club")
             }
         </script>
     <body>
