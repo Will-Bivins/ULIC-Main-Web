@@ -100,6 +100,7 @@ margin-bottom: 20px;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: #ad0000;
 
 }
 .section-1{ /* Title Card Page */
@@ -152,7 +153,7 @@ margin-bottom: 20px;
     margin-left: 40px;
     margin-right: 40px;
     border-radius: 10px;
-    margin-top: 15px;
+    margin-top: 45px;
 
 }
 .content-2{
@@ -168,26 +169,22 @@ h1{
     padding: 5px;
 }
 .welcome{
-    background-image: url(imgs/COB-Background.png);
+    background-image: url(imgs/campus.jpg);
     background-attachment: fixed;
     background-position: center;
-    height: 685px;
+    height: 585px;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     align-items: center;
 
-    
-
 }
-.learn-graphic{
+.about-graphic{
     justify-content: center;
+    padding-left: 30px;
 
 }
-.contactbox{
-    padding-top: 20px;
-    margin-top: 20px;
-}
+
 footer{
     background-color: #ad0000;
     padding-top: 30px;
