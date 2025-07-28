@@ -168,7 +168,7 @@ h1{
     padding: 5px;
 }
 .welcome{
-    background-image: url(imgs/Grawemeyer\ Fall.jpg);
+    background-image: url(imgs/COB-Background.png);
     background-attachment: fixed;
     background-position: center;
     height: 685px;
@@ -176,12 +176,13 @@ h1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+
     
 
 }
 .learn-graphic{
-    margin-right: 20px;
+    justify-content: center;
+
 }
 .contactbox{
     padding-top: 20px;
