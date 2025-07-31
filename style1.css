@@ -30,6 +30,7 @@ nav{
     flex-direction: row;
     align-items: center;
 
+
 }
 
 .sidebar{
@@ -111,6 +112,7 @@ margin-bottom: 20px;
     align-items: center;
     flex-direction: column;
     background-color: #ad0000;
+    
 }
 .section-1 a{ 
     text-decoration: none;
