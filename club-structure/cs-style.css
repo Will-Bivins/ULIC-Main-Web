@@ -5,7 +5,7 @@
 }
 body{
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.829);
+    background-color: white;
     overflow-y: scroll;
 
 }
@@ -31,7 +31,9 @@ nav{
     align-items: center;
 
 }
-
+.logo:hover{
+    cursor: pointer;
+}
 .sidebar{
     position: fixed;
     top: 0;
@@ -101,7 +103,6 @@ margin-bottom: 20px;
     min-height: 100vh;
     flex-direction: column;
     background-color: #ad0000;
-
 }
 .section-1{ /* Title Card Page */
     flex: .5;
@@ -116,8 +117,26 @@ margin-bottom: 20px;
 .section-1 a{ 
     text-decoration: none;
 }
-.logo:hover{
+
+.cbutton{ /* Contact Button */
+    font-size: 20px;
+    border: 0.5px solid #ad0000;
+    color: #ad0000;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 18px;
+    font-weight: 550;
+    background-color: white;
+    margin-top: 20px;
+
+}
+.cbutton:hover{
+    background-color: #ad0000;
+    color: white;
     cursor: pointer;
+    box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.4 );
+
 }
 .section-2{
     flex: 2;
@@ -129,14 +148,17 @@ margin-bottom: 20px;
     flex-direction: column;
     margin-top: 20px;
 }
+
 .content-1{
     background-color: white;
     flex: 1;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 45px;
-    margin-bottom: 25px;
-    
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: none;
+    width: 100%;
 }
 .content-2{
     background-color: white;
@@ -146,23 +168,17 @@ margin-bottom: 20px;
 
 }
 
-h1{
-   font-family: "Oswald";
-    font-size: 55px;
-    padding: 5px;
-    
-}
 .welcome{
-    background-image: url(imgs/Spring\ Minirva.jpg);
+    background-image: url(imgs/Campus.jpg);
     background-size: cover;
-    height: 685px;
+    height: 800px;
     width: 100%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-
+    
 
 }
 .about-graphic{
@@ -176,6 +192,33 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: space-between;
-    padding-top: 30px;
+    padding-top: 10px;
+    margin-top: 20px;
     box-shadow: 0px -10px 10px 2px rgba(0, 0, 0, 0.3);
+}
+h1{
+    font-size: 75px;
+   font-family: "Oswald";
+    font-optical-sizing: auto;
+    font-weight: 100%;
+    font-style: normal;
+}
+h2{
+    font-size: 50px;
+   font-family: "Oswald";
+}
+p{
+    font-size: 2.5vh;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+hr.solid {
+  border-top: 3px solid #ad0000;
+  border-radius: 30px;
+width: 100%;
 }
